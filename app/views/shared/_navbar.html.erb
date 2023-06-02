@@ -1,0 +1,19 @@
+<nav class="static top-0 flex items-center justify-between h-16 bg-white shadow-md">
+  <div class="flex items-center ml-4">
+    <%= link_to root_path do %>
+      <%= image_tag 'favicon-32x32.png',size: '60x60', class: 'inline-block' %>
+      <span class="text-lg align-middle text-black cloitems-center inlink-block tracking-zero">喫茶店</span>
+    <% end %>
+  </div>
+    <ul class="flex">
+        <li class="px-5 py-2">
+          <%= link_to "會員登入" , new_user_session_path, class: "btn-round btn-sm btn-rose" %>
+        </li>
+        <li class="px-5 py-2">
+          <%= link_to "註冊", new_user_registration_path, class: "btn-round btn-sm btn-rose" %>
+        </li>
+           <li class="px-5 py-2">
+          <%= button_to "登出", destroy_user_session_path, method: "delete", class: "btn-round btn-sm btn-rose" %>
+        </li>
+      </ul>
+</nav>
