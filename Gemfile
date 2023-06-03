@@ -31,6 +31,7 @@ gem 'foreman', '~> 0.87.2'
 gem 'tailwindcss-rails', '~> 2.0'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'stimulus-rails'
+gem 'devise-i18n'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,6 +48,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   # gem 'spring'
   gem 'rubocop-rails', '~> 2.19'
+  gem "letter_opener"
 end
 
 group :test do
