@@ -211,7 +211,6 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
-    spring (4.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -271,13 +270,12 @@ DEPENDENCIES
   rubocop-rails (~> 2.19)
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
-  spring
   tailwindcss-rails (~> 2.0)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
   webdrivers
-  webpacker (~> 5.0)
+  webpacker
 
 RUBY VERSION
    ruby 3.2.2p53
