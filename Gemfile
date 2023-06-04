@@ -32,6 +32,9 @@ gem 'tailwindcss-rails', '~> 2.0'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'stimulus-rails'
 gem 'devise-i18n'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
