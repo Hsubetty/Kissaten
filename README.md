@@ -1,24 +1,11 @@
-# README
+# 喫茶店
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### version
+  - rails 6.1.7.3
+  - ruby 3.2.2
+  - node v16.15.0
+  - PostgreSQL 14.7
 
-Things you may want to cover:
+- devise套件實作
+- 第三方Google登入
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
